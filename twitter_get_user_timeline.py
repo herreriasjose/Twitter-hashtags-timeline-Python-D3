@@ -12,7 +12,7 @@ spinner = itertools.cycle(['-', '\\', '|','/' ])
 def get_user_timeline(user):
 
 	
-	fname= 'user_timeline_{}.jsonl'.format(user)
+	fname= 'temp_user_timeline_{}.jsonl'.format(user)
 	client = get_twitter_client()
 	print("Downloading timeline...")
 	try:
@@ -24,7 +24,7 @@ def get_user_timeline(user):
 				for status in page:
 					f.write(json.dumps(status._json)+'\n')
 			print("Done.")
-		with open('user.json','w') as f:
+		with open('temp_user.json','w') as f:
 			t = datetime.now()
 			t = t.strftime("%A, %d. %B %Y %I:%M%p")
 			data_user = {'user':user,'date': t}

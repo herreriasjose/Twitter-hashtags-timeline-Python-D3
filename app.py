@@ -51,7 +51,7 @@ if __name__ == '__main__':
 	print("Extracting data...")
 	
 	dates_list = []
-	fname = 'user_timeline_{}.jsonl'.format(user_name)
+	fname = 'temp_user_timeline_{}.jsonl'.format(user_name)
 			
 	
 	with open(fname,'r') as f:
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 		
 	
 	data.sort(key=lambda d: d['created_at'])	
-	with open('tweets_dataset.json','w') as f:
+	with open('temp_tweets_dataset.json','w') as f:
 		json.dump(data,f)
 		
 	print("Done.")

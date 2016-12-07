@@ -33,12 +33,12 @@
 	var vis;
 	var xScale, yScale;
 	
-	d3.json("user.json", function(err,json) {
+	d3.json("temp_user.json", function(err,json) {
 		if(err) return console.log(err);
 		user = json;
 	});
 	
-	d3.json("tweets_dataset.json", function(err, json) {
+	d3.json("temp_tweets_dataset.json", function(err, json) {
 		if(err) return console.log(err);
 		dataset = json;
 		getData();
