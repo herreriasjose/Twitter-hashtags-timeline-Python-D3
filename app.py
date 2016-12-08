@@ -40,6 +40,7 @@ def extract_data(tweet):
 if __name__ == '__main__':
 	
 	user_name = input('User name?: ')
+	user_name = user_name.translate({ord(c): None for c in '!@#$'})
 	
 	
 	if (not get_user_timeline(user_name)):
