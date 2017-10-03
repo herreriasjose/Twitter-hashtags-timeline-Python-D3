@@ -1,4 +1,4 @@
-# Twitter-timeline-python-D3
+# Twitter-hashtags-timeline-python-D3
 Extracting data and plotting a Twitter timeline about the user hashtags using Python and D3.
 
 
