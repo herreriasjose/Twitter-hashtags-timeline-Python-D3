@@ -1,4 +1,4 @@
-"""A simple way of getting timeline Tweets and plot them using Python and D3"""
+"""A simple way of getting timeline Tweets and plot their hashtags using Python and D3"""
 
 
 __author__ = "Jose Herrerías"
