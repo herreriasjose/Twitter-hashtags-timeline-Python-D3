@@ -3,11 +3,11 @@ from tweepy import OAuthHandler
 import sys
 
 
-API_KEY =	"uszRU7CBLx5MhDx1lYpaFUxZM" # Consumer Key (API Key)
-API_SECRET =	"dl8bzTdMfExRehPw9XhoSf2bDzix4xBQhK1zh3HuDV1QOVepwq" # Consumer Secret (API Secret)
+API_KEY =	"uszRU7CBLx5MhDx_yep_is_a_dummy_key" # Consumer Key (API Key)
+API_SECRET =	"dl8bzTdMfExRehPw9XhoSf2bDzix4xBQh_yep_is_a_dummy_secret" # Consumer Secret (API Secret)
 
-TOKEN_KEY =		"2329449824-Vju5G1VzL2SzWQwEcToAIaeP1Mt3gu3ZyLiL2Xb" # Access Token
-TOKEN_SECRET =	"irHMEBpYonWoyNH8qktF7ymPUlSz1mCNTE4qB9GtNVX7c" # Access Token Secret
+TOKEN_KEY =	"2329449824-Vju5G1VzL2SzWQwEc_yep_is_a_dummy_token" # Access Token
+TOKEN_SECRET =	"irHMEBpYonWoyNH8qktF7ymPUlSz1_yep_is_a_dummy_secret" # Access Token Secret
 
 
 def get_twitter_auth():
